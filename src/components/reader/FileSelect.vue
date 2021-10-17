@@ -1,13 +1,13 @@
 <template>
-  <div class="card">
-    <h1 class="text-xl">Select your AOW file</h1>
+  <div class="p-2">
+    <p>Select your AOW file</p>
     <input type="file" accept=".aow" ref="input" v-on:change="onSubmit" />
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue'
-import { processFile } from '../data'
+import { processFile } from '../../data'
 
 const input = ref<HTMLInputElement | null>(null)
 

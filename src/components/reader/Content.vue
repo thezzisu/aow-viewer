@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 import { computed } from '@vue/reactivity'
-import { files, index } from '../data'
+import { files, index } from '../../data'
 
 const info = computed(() => files.value[index.value])
 </script>
