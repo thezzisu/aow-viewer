@@ -1,0 +1,24 @@
+{
+  "name": "aow-viewer",
+  "version": "0.0.1",
+  "description": "Previewer for ArchiveOnWeb format",
+  "repository": "git@github.com:thezzisu/aow-viewer.git",
+  "author": "thezzisu <thezzisu@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.16"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.4",
+    "vite-plugin-windicss": "^1.4.11",
+    "vue-tsc": "^0.3.0",
+    "windicss": "^3.1.9"
+  }
+}
