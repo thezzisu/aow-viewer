@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="p-2">
     <template v-if="info">
       <p class="text-center">{{ info.path }}</p>
       <p class="text-center">{{ info.url }}</p>
